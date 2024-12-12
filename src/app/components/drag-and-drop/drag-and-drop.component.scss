@@ -1,0 +1,13 @@
+.drag-and-drop {
+    .list {
+        width: 300px;
+        background-color: gray;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .list-item {
+            cursor: grab;
+        }
+    }
+}

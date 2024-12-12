@@ -1,0 +1,2 @@
+Build a drag-and-drop interface:
+Create a component that allows users to drag and drop elements within a list or grid.
