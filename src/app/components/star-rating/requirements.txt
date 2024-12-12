@@ -1,0 +1,3 @@
+Build a star rating component:
+Create a component that displays a star rating system. It should allow users to select a rating and display the appropriate 
+number of filled stars.

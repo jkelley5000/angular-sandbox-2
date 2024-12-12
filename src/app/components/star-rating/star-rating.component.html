@@ -1,0 +1,5 @@
+<div class="star-rating">
+    @for (star of stars; track $index) {
+        <div class="star" [ngClass]="{'star-selected': star.selected}" (click)="onStarSelected(star.id)"></div>
+    }
+</div>
