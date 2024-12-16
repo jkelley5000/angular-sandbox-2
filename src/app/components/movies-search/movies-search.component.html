@@ -1,0 +1,11 @@
+<div class="movies-search">
+    <label>Search for Movies or Shows</label>
+    <input (keyup)="searchMovies($event)" placeholder="title" />
+    <div class="movies-search-results">
+        <ul>
+            @for (searchResult of moviesAndShowsResults; track $index) {
+                <li>{{ searchResult.title }}</li>
+            }
+        </ul>
+    </div>
+</div>
