@@ -1,6 +1,5 @@
-<div class="movies-search">
-    <label>Search for Movies or Shows</label>
-    <input (keyup)="searchMovies($event)" placeholder="title" />
+<div class="container-theme movies-search">
+    <input (keyup)="searchMovies($event)" placeholder="Search by movie title" />
     <div class="movies-search-results">
         <ul>
             @for (searchResult of moviesAndShowsResults; track $index) {
