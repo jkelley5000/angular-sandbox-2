@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 968px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        margin-left: 15px;
+        font-family: 'Neonderthaw';
+        font-size: 50px;
+        color: #fff;
+        text-shadow: purple 2px 2px;
+    }
+
+    small {
+        margin-left: 15px;
+        font-family: 'Tilt Neon';
+        font-size: 16px;
+        color: #fff;
+    }
+
+    nav {
+        margin-top: 25px;
+
+        @media (max-width: 968px) {
+            margin-left: 15px;
+        }
+
+        a {
+            margin-right: 15px;
+            padding: 5px;
+            font-family: 'Tilt Neon';
+            color: #fff;
+            text-shadow: purple 2px 2px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .active {
+            border-radius: 10px;
+            border: solid 2px #fff;
+            outline: solid 2px purple;
+        }
+    }
+}
