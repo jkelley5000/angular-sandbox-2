@@ -1,13 +1,19 @@
 .drag-and-drop {
     .list {
         width: 300px;
-        background-color: gray;
         padding: 10px;
         display: flex;
         flex-direction: column;
 
         .list-item {
+            border: solid 2px white;
+            border-radius: 6px;
+            padding: 5px;
+            margin: 2px;
             cursor: grab;
+            font-family: 'Tilt Neon';
+            color: #fff;
+            box-shadow: 0px 0px 10px #fff;
         }
     }
 }

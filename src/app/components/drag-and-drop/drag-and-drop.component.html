@@ -1,4 +1,4 @@
-<div class="drag-and-drop">
+<div class="container-theme drag-and-drop">
     <div cdkDropList [cdkDropListData]="items" (cdkDropListDropped)="drop($event)" class="list">
         @for (item of items; track $index) {
             <div cdkDrag class="list-item">
