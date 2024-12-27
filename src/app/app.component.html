@@ -5,11 +5,14 @@
             <a routerLink="/star-rating" routerLinkActive="active">Star Rating</a>
             <a routerLink="/drag-and-drop" routerLinkActive="active">Drag and Drop</a>
             <a routerLink="/movies-search" routerLinkActive="active">Movies Search</a>
-            <a routerLink="/credit-card" routerLinkActive="active">Credit Card</a>
+            <a routerLink="/credit-card-formatter" routerLinkActive="active">Credit Card</a>
         </nav>
     </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
 
-    <h3>Credit card number formatter</h3>
+    <!-- <h3>Credit card number formatter</h3>
     <app-credit-card-formatter />
     <hr>
 
@@ -23,6 +26,6 @@
 
     <h3>Movies search</h3>
     <app-movies-search />
-    <hr>
+    <hr> -->
 </main>
 <router-outlet />
