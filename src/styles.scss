@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./app/assets/images/neon entrance to club.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: 'Neonderthaw';
+    src: url(./app/assets/fonts/Neonderthaw/Neonderthaw-Regular.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url(./app/assets/fonts/Tilt\ Neon/TiltNeon-Regular-VariableFont_XROTYROT.ttf) format('woff');
+}
