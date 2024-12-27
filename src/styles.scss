@@ -23,3 +23,11 @@ body {
     font-family: 'Tilt Neon';
     src: url(./app/assets/fonts/Tilt\ Neon/TiltNeon-Regular-VariableFont_XROTYROT.ttf) format('woff');
 }
+
+.container-theme {
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #ffffff;
+    background: #4a2b4a;
+}
